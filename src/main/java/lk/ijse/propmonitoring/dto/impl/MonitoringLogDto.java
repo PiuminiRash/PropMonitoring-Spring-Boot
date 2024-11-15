@@ -5,6 +5,7 @@
  * */
 package lk.ijse.propmonitoring.dto.impl;
 
+import lk.ijse.propmonitoring.dto.MonitoringLogStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,7 +16,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class MonitoringLogDto {
+public class MonitoringLogDto implements MonitoringLogStatus {
     private String logCode;
     private Date date;
     private String logDetails;
