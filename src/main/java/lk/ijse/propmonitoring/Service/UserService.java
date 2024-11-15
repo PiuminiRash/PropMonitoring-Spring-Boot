@@ -1,8 +1,7 @@
-/* Created By Sithira Roneth
-* Date :10/29/24
-* Time :10:35
-* Project Name :Prop-Monitoring-System 
-* */
 package lk.ijse.propmonitoring.Service;
+
+import lk.ijse.propmonitoring.dto.impl.UserDto;
+
 public interface UserService {
+    void userSave(UserDto userDto);
 }
