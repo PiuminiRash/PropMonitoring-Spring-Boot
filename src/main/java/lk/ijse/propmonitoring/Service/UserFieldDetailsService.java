@@ -1,4 +1,4 @@
 package lk.ijse.propmonitoring.Service;
 
-public interface StaffeService {
+public interface UserFieldDetailsService {
 }

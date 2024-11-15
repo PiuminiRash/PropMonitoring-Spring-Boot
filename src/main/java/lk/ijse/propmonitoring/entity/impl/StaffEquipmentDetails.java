@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name="StaffEquipmentDetails")
+@Table(name="StaffEquipmentDetailsController")
 public class StaffEquipmentDetails implements SuperEntity {
     @Id
     private String eqDetailsId;
