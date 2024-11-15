@@ -1,21 +1,17 @@
-/* Created By Sithira Roneth
- * Date :10/29/24
- * Time :10:28
- * Project Name :Prop-Monitoring-System
- * */
 package lk.ijse.propmonitoring.dto.impl;
 
+import lk.ijse.propmonitoring.dto.FieldStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.data.geo.Point;
 
-import java.awt.*;
 import java.util.List;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class FieldDto {
+public class FieldDto implements FieldStatus {
     private String fieldCode;
     private String fieldName;
     private Point fieldLocation;
