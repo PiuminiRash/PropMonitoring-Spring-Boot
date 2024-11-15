@@ -26,11 +26,11 @@ public class Field implements SuperEntity {
 //    @OneToMany(mappedBy = "field")
 //    private List<Crop> Field_Code;
 //
+    @OneToMany(mappedBy = "field")
+    private List<StaffFieldDetails> fieldCode;
+
 //    @OneToMany(mappedBy = "field")
-//    private List<StaffFieldDetails> fieldCode;
-//
-//    @OneToMany(mappedBy = "field")
-//    private List<FieldEquipmentDetails> field_code;
+//    private List<FieldEquipmentDetailsController> field_code;
 
     private String fieldImage1;
     private String fieldImage2;
