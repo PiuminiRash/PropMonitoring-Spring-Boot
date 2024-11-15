@@ -1,5 +1,6 @@
 package lk.ijse.propmonitoring.dto.impl;
 
+import lk.ijse.propmonitoring.dto.StaffStatus;
 import lk.ijse.propmonitoring.entity.Gender;
 import lk.ijse.propmonitoring.entity.Role;
 import lombok.AllArgsConstructor;
@@ -12,7 +13,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class StaffDto {
+public class StaffDto implements StaffStatus {
     private String staffId;
     private String firstName;
     private String lastName;
