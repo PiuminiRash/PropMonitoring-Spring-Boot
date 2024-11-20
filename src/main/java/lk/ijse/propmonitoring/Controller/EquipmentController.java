@@ -1,8 +1,3 @@
-/* Created By Sithira Roneth
-* Date :10/29/24
-* Time :10:27
-* Project Name :Prop-Monitoring-System 
-* */
 package lk.ijse.propmonitoring.Controller;
 
 import lk.ijse.propmonitoring.Exception.DataPersistException;
@@ -25,7 +20,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/v1/equipments")
+@RequestMapping("equipments/")
 public class EquipmentController {
     @Autowired
     private EquipmentService equipmentService;

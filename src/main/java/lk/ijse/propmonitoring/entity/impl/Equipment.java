@@ -31,6 +31,6 @@ public class Equipment implements SuperEntity {
     @OneToMany(mappedBy = "equipment")
     private List<StaffEquipmentDetails> equipment_id;
 
-    @OneToMany(mappedBy = "equipment")
-    private List<UserEquipmentDetails> equipment_code;
+//    @OneToMany(mappedBy = "equipment")
+//    private List<UserEquipmentDetails> equipment_code;
 }
