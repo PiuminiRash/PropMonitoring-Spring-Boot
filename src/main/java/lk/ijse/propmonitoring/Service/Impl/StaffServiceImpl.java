@@ -1,5 +1,6 @@
 package lk.ijse.propmonitoring.Service.Impl;
 
+import jakarta.transaction.Transactional;
 import lk.ijse.propmonitoring.Service.StaffService;
 import lk.ijse.propmonitoring.customStatusCode.SelectedErrorStatus;
 import lk.ijse.propmonitoring.dao.StaffDao;
@@ -16,6 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
+@Transactional
 public class StaffServiceImpl implements StaffService {
     @Autowired
     private StaffDao staffDao;
