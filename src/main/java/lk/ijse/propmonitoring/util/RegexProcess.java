@@ -1,8 +1,3 @@
-/* Created By Sithira Roneth
- * Date :9/30/24
- * Time :16:05
- * Project Name :Note_Collector
- * */
 package lk.ijse.propmonitoring.util;
 
 import java.util.regex.Pattern;
