@@ -7,6 +7,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface VehicleDao extends JpaRepository<Vehicle, String> {
-    @Query("SELECT v.vehicle_code FROM Vehicle v ORDER BY v.vehicleCode DESC")
-    String findLastVehicleCode();
+//    @Query("SELECT v.vehicle_code FROM Vehicle v ORDER BY v.vehicleCode DESC") String findLastVehicleCode();
 }
