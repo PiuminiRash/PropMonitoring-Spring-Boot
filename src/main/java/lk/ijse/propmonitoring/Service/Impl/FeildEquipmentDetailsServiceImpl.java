@@ -22,9 +22,9 @@ public class FeildEquipmentDetailsServiceImpl implements FieldEquipmentDetailsSe
     private FieldEquipmentDetailsDao fieldEquipmentDetailsDao;
 
     @Override
-    public void saveFieldEquipmentDetails(FieldEquipmentDetailsDto orderDetailsDto) {
+    public void saveFieldEquipmentDetails(FieldEquipmentDetailsDto fieldEquipmentDetailsDto) {
         FieldEquipmentDetails savedFieldEquipmentDetails =
-                fieldEquipmentDetailsDao.save((mapping.toFieldEquipmentDetailsEntity(orderDetailsDto)));
+                fieldEquipmentDetailsDao.save((mapping.toFieldEquipmentDetailsEntity(fieldEquipmentDetailsDto)));
         if (savedFieldEquipmentDetails == null) {
             throw new DataPersistException("Orders Not Saved...!!! ");
         }

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/fieldEq")
+@RequestMapping("fieldEq/")
 public class FieldEquipmentDetailsController {
     @Autowired
     private FieldEquipmentDetailsService feildEquipmentDetailsService;
