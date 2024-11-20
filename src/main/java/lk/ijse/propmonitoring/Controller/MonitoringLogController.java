@@ -18,7 +18,7 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/v1/monitors")
+@RequestMapping("monitors/")
 public class MonitoringLogController {
     @Autowired
     private MonitroingLogService monitoringLogService;
