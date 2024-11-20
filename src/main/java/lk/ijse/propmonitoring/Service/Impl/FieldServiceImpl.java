@@ -1,5 +1,6 @@
 package lk.ijse.propmonitoring.Service.Impl;
 
+import jakarta.transaction.Transactional;
 import lk.ijse.propmonitoring.Service.FieldService;
 import lk.ijse.propmonitoring.customStatusCode.SelectedErrorStatus;
 import lk.ijse.propmonitoring.dao.FieldDao;
@@ -14,6 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
+@Transactional
 public class FieldServiceImpl implements FieldService {
     @Autowired
     private FieldDao fieldDao;

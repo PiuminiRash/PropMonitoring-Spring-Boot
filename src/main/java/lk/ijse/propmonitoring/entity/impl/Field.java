@@ -35,6 +35,6 @@ public class Field implements SuperEntity {
     private String fieldImage1;
     private String fieldImage2;
 
-    @OneToMany(mappedBy = "field")
-    private List<UserFieldDetails> field_code;
+//    @OneToMany(mappedBy = "field")
+//    private List<UserFieldDetails> field_code;
 }
